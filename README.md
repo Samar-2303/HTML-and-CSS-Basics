@@ -1,1 +1,1 @@
-Learning the basics of web development
+Learning the basics of Html and CSS
