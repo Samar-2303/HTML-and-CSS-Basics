@@ -1,13 +1,72 @@
-h1{
+#h1page2{
     color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border: 3px solid salmon;
+    text-shadow: 3px 3px 5px rgb(255, 3, 3),-3px -3px 5px rgb(29, 247, 29);
 }
-body{
+
+#body2{
     background-color: black;
 }
 
 .odd{
     color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid rgb(238, 5, 179) ;
 }
+
 .even{
     color: rgb(238, 5, 179);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid aqua;
+}
+
+.box{
+    color: aqua;
+    border: 5px solid white ;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#box1{
+ margin-bottom: 200px;
+}
+
+#img1{
+    float: left;
+    margin: 10px;
+}
+
+#img2{
+    float: right;
+    margin: 10px;
+}
+
+#bodyfloat{
+    border: 5px solid black;
+    display: flow-root;
+}
+
+#overflow{
+    border: 3px solid black;
+    height: 75px;
+    overflow: auto;
+}
+
+.hwbox{
+    border:2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: auto;
+    min-height: 50%;
+    background-color: deeppink;
+
+}
+.hwbody{
+    background-color: aqua;
+    height: 100vh;
+    
 }
